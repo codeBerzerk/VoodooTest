@@ -1,4 +1,69 @@
 @import url('https://fonts.cdnfonts.com/css/avenir-next-cyr'); /*font-family: 'Avenir Next Cyr', sans-serif;*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap'); /*font-family: 'Inter', sans-serif;*/
 
+.container {
+    margin: 138px 150px 388px;
+}
 
+.contact-container__contact-us {
+    font-family: 'Avenir Next Cyr', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #1A1A1A;
+    margin: 0;
+}
+
+.contact-container__subtitle {
+    margin-top: 13px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #1A1A1A;
+}
+
+.contact-container__forms-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+#map {
+    width: 400px;
+    height: 400px;
+}
+
+.firstHeading {
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.infoContent__subtitle {
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.infoContent__contacts {
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #858585;
+}
+
+.infoContent__contacts svg {
+    margin-right: 10px;
+}

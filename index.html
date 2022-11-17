@@ -4,12 +4,59 @@
     <meta charset="UTF-8">
     <title>Test</title>
     <link rel="stylesheet" href="main.css">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="module" src="index.js"></script>
 </head>
 <body>
+<div class="container">
+    <div class="contact-container">
+        <div class="contact-container__title">
+            <p class="contact-container__contact-us">Contact Us</p>
+            <p class="contact-container__subtitle">The Voodoo team is looking forward to hearing from you!</p>
+        </div>
+        <form class="contact-container__forms-container">
+            <label><input type="text"></label>
+            <label><input type="text"></label>
+
+            <label>
+                <select name="select">
+                    <option value="value1">Значение 1</option>
+                    <option value="value2">Значение 2</option>
+                    <option value="value3">Значение 3</option>
+                </select>
+            </label>
+            <label><input type="text"></label>
+
+            <label><input type="text"></label>
+            <label>
+                <select name="select">
+                    <option value="value1">Значение 1</option>
+                    <option value="value2">Значение 2</option>
+                    <option value="value3">Значение 3</option>
+                </select>
+            </label>
+
+            <label><input type="text"></label>
+            <label><input type="text"></label>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <div class="map-container" id="map">
 
 
 
+
+    </div>
+</div>
+
+<script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDp4mypNUkiisiumY6NRcEiE0nOY9EuOO0&callback=initMap&v=weekly"
+        defer
+></script>
+
+<!--        AIzaSyDp4mypNUkiisiumY6NRcEiE0nOY9EuOO0-->
 
 </body>
 </html>
