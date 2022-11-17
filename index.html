@@ -15,31 +15,40 @@
             <p class="contact-container__subtitle">The Voodoo team is looking forward to hearing from you!</p>
         </div>
         <form class="contact-container__forms-container">
-            <label><input type="text"></label>
-            <label><input type="text"></label>
+            <label><input type="text" placeholder="Full Name*"></label>
+            <label><input type="text" placeholder="Title/Position*"></label>
 
             <label>
-                <select name="select">
-                    <option value="value1">Значение 1</option>
-                    <option value="value2">Значение 2</option>
-                    <option value="value3">Значение 3</option>
+                <select name="practice" required>
+                    <option value="" disabled selected hidden>Practice / Institution*</option>
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                    <option value="4">Option 4</option>
+                    <option value="5">Option 5</option>
                 </select>
             </label>
-            <label><input type="text"></label>
+            <label><input type="text" placeholder="Email Address*"></label>
 
-            <label><input type="text"></label>
+            <label><input type="text" placeholder="Phone Number*"></label>
             <label>
-                <select name="select">
-                    <option value="value1">Значение 1</option>
-                    <option value="value2">Значение 2</option>
-                    <option value="value3">Значение 3</option>
+                <select name="medicalProfession" required>
+                    <option value="" disabled selected hidden>Medical Profession*</option>
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                    <option value="4">Option 4</option>
+                    <option value="5">Option 5</option>
                 </select>
             </label>
 
-            <label><input type="text"></label>
-            <label><input type="text"></label>
+            <span>
+                <label><input type="text" placeholder="Type of Inquiry*"></label>
+                <label><input type="text" placeholder="Enter Message*"></label>
 
             <input type="submit" value="Submit">
+
+            </span>
         </form>
     </div>
 
