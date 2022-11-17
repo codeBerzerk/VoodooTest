@@ -3,14 +3,17 @@ let Marker;
 let Title;
 let pos = {lat: 43.45290513984092, lng: -80.51339120287821 };
 
-function initMap(callback) {
-
+function initMap() {
     map = new google.maps.Map(document.getElementById("map"), {
         center: pos,
         zoom: 16,
         disableDefaultUI: true,
-        featureType: "poi",
-            stylers: [{ visibility: "off" }],
+        styles: [
+            {
+                featureType: 'poi',
+                stylers: [{ visibility: 'off' }]
+            },
+        ],
         })
 
     Marker = new google.maps.Marker({
