@@ -145,7 +145,7 @@ body {
     border-radius: 10px;
     width: 222px;
     height: 57px;
-
+    border: none;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
