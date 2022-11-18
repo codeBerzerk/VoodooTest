@@ -14,8 +14,6 @@ body {
     .container {
         grid-template-columns: auto;
         margin: 0;
-        padding-left: 20px;
-        padding-right: 20px;
         justify-items: center;
 
     }
@@ -48,11 +46,6 @@ body {
     font-size: 16px;
     line-height: 28px;
     color: #1A1A1A;
-} @media (max-width: 640px) {
-    .contact-container__subtitle {
-        /*width: 320px;*/
-
-    }
 }
 
 .contact-container__forms-container {
@@ -145,7 +138,6 @@ body {
         width: 350px;
     }
 }
-
 
 .contact-container__forms-container__button {
     margin-top: 51px;
