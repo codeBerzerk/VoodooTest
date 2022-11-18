@@ -5,6 +5,7 @@
     <title>Test</title>
     <link rel="stylesheet" href="main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="module" src="map.js"></script>
     <script type="module" src="index.js"></script>
 </head>
 <body>
@@ -18,8 +19,8 @@
             <label><input type="text" placeholder="Full Name*"></label>
             <label><input type="text" placeholder="Title/Position*"></label>
 
-            <label>
-                <select name="practice" required>
+            <label class="contact-container__select-container">
+                <select class="standard-select" name="practice">
                     <option value="" disabled selected hidden>Practice / Institution*</option>
                     <option value="1">Option 1</option>
                     <option value="2">Option 2</option>
@@ -31,8 +32,8 @@
             <label><input type="text" placeholder="Email Address*"></label>
 
             <label><input type="text" placeholder="Phone Number*"></label>
-            <label>
-                <select name="medicalProfession" required>
+            <label class="contact-container__select-container">
+                <select class="standard-select" name="medicalProfession">
                     <option value="" disabled selected hidden>Medical Profession*</option>
                     <option value="1">Option 1</option>
                     <option value="2">Option 2</option>
@@ -42,13 +43,13 @@
                 </select>
             </label>
 
-            <span>
-                <label><input type="text" placeholder="Type of Inquiry*"></label>
-                <label><input type="text" placeholder="Enter Message*"></label>
 
-            <input type="submit" value="Submit">
+                <label><input style="width: 613px" type="text" placeholder="Type of Inquiry*"></label>
+                <label><input style="width: 613px; height: 338px" type="text" placeholder="Enter Message*"></label>
 
-            </span>
+            <input class="contact-container__forms-container__button" type="submit" value="Send Message">
+
+
         </form>
     </div>
 
